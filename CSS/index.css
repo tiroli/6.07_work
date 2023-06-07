@@ -1,0 +1,36 @@
+header ul {
+    padding: 0;
+}
+
+header li {
+    list-style: none;
+    margin-bottom: 1px;
+}
+
+header span {
+    display: inline-block;
+    width: 100px;
+    line-height: 50px;
+    background-color: cornflowerblue;
+    opacity: .5;
+    color: aliceblue;
+    text-align: center;
+    font-size: larger;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+
+    display: none;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+header span:hover {
+    opacity: 1;
+}
+
+header span:hover+img {
+    display: block;
+}

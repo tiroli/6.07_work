@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+ul{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+
+li {
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    border: skyblue solid 1px;
+    color: white;
+    background-color: lightskyblue;
+    text-align: center;
+    margin: 2px;
+    opacity: 0.5;
+}
+
+img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 120px;
+    display: none;
+}
+
+li:nth-of-type(n):hover+img {
+            display: inline-block;
+        }
+
+li:hover {
+    opacity: 1;
+}        
+
+
+
+
+</style>
+
+</head>
+<body>
+<ul>
+
+    <li>돈까스</li>
+    <img src="./image/pork_cutlet.png">
+    
+    
+    <li>짜장면</li>
+    <img src="./image/jajangmyeon.PNG">
+    
+
+    <li>탕수육</li>
+    <img src="./image/sweet_sour_pork.png">
+    
+
+    <li>김밥</li>
+    <img src="image/gimbap.png">
+    
+    
+    <li>떡볶이</li>
+    <img src="image/tteokbokki.png">
+    
+</ul> 
+</body>
+</html>
